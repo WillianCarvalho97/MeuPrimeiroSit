@@ -1,0 +1,134 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Cor de fundo em tom de preto */
+    color: white; /* Cor do texto padrão (preto) */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilos específicos da página inicial (título em red) */
+#inicio {
+    text-align: center;
+    padding: 100px;
+}
+
+#inicio h1 {
+    font-size: 36px;
+    color: gold;
+}
+
+#inicio p {
+    font-size: 18px;
+}
+
+/* Estilos específicos da página "Sobre Mim" (título em preto) */
+#sobre {
+    text-align: center;
+    padding: 100px;
+}
+
+#sobre h1 {
+    font-size: 36px;
+    color: black;
+}
+
+#sobre p {
+    font-size: 18px;
+}
+
+/* Estilos específicos da página "Formação" (título em preto) */
+#formacao {
+    text-align: center;
+    padding: 100px;
+}
+
+#formacao h1 {
+    font-size: 36px;
+    color: black;
+}
+
+#formacao p {
+    font-size: 18px;
+}
+
+/* Estilos específicos da página "Portfólio" (título em preto) */
+#portfolio {
+    text-align: center;
+    padding: 100px;
+}
+
+#portfolio h1 {
+    font-size: 36px;
+    color: black;
+}
+
+#portfolio p {
+    font-size: 18px;
+    color: white; /* Cor do texto no portfólio (branco) */
+}
+
+#portfolio ul {
+    list-style: none;
+}
+
+#portfolio ul li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Estilos específicos da página "Contato" (título em preto) */
+#contato {
+    text-align: center;
+    padding: 100px;
+}
+
+#contato h1 {
+    font-size: 36px;
+    color: black;
+}
+
+#contato p {
+    font-size: 18px;
+}
+
+#contato-form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contato-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contato-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+/* Estilos específicos para a imagem de perfil */
+.foto-perfil {
+    border-radius: 50%; /* Define a forma oval (border-radius de 50%) para a foto de perfil */
+    width: 418px; /* Redimensione a largura para 418px (metade do tamanho original) */
+    height: 768px; /* Redimensione a altura para 768px (metade do tamanho original) */
+}
+
+
+
